@@ -1,0 +1,25 @@
+{
+  "name": "pattern_primer",
+  "version": "1.0.0",
+  "description": "Pattern Primer components and style guide",
+  "main": "index.html",
+  "scripts": {
+    "test": "patternprimer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moppedijk/jsd_03_components.git"
+  },
+  "keywords": [
+    "Moppedijk"
+  ],
+  "author": "Martijn Oppedijk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moppedijk/jsd_03_components/issues"
+  },
+  "homepage": "https://github.com/moppedijk/jsd_03_components#readme",
+  "devDependencies": {
+    "grunt-patternprimer": "^0.1.2"
+  }
+}

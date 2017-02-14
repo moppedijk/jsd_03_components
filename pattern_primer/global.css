@@ -1,0 +1,182 @@
+/* Layout */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+}
+
+input:focus {
+  outline: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #8A0917;
+  text-decoration: none;
+}
+
+/* Custom styles
+   ========================================================================== */
+
+/**
+	HTML: heading-*.html
+*/
+
+h1,
+h2,
+h3 {
+  color: #8A0917;
+}
+
+.form {
+	background-color: #c8c8c8;
+	padding: 20px 0px;
+	max-width: 500px;
+}
+
+/**
+ 	HTML: form-text.html
+ */
+
+.form__inputholder {
+  padding: 15px 20px;
+  background-color: #FFFFFF;
+  color: #8A0917;
+  font-size: 16px;
+  margin: 0px 20px;
+  position: relative;
+}
+
+.form__input {
+	color: inherit;
+	font: inherit;
+}
+
+/*
+	HTML: form-checkbox.html
+ */
+
+.form__radiogroup {
+  color: #FFFFFF;
+  overflow: hidden;
+  padding: 0px 20px;
+  max-width: 500px;
+}
+
+.form__radiogroup label {
+  width: 50%;
+  float: left;
+}
+
+.form__radio {
+  min-height: 22px;
+  width: 50%;
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  /** ie8 fixes **/
+}
+
+.form__radio--list input[type="radio"] + label {
+  background-image: url("img/checkbox-list.svg");
+}
+
+.form__radio--map input[type="radio"] + label {
+  background-image: url("img/checkbox-map.svg");
+}
+
+.form__radio input[type="checkbox"],
+.form__radio input[type="radio"] {
+  display: none;
+  transition: background-position 0.5s ease;
+}
+
+.form__radio input[type="checkbox"] + label,
+.form__radio input[type="radio"] + label {
+  display: inline-block;
+  background-size: 22px 66px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 17px;
+  padding-left: 30px;
+  padding-top: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+.form__radio input[type="checkbox"] + label:hover,
+.form__radio input[type="radio"] + label:hover {
+  background-position: center left;
+  color: #000;
+}
+
+.form__radio input[type="checkbox"]:checked + label,
+.form__radio input[type="checkbox"]:checked + label:hover,
+.form__radio input[type="radio"]:checked + label,
+.form__radio input[type="radio"]:checked + label:hover {
+  background-position: bottom left;
+  color: #8A0917;
+}
+
+.ie8 .form__radio input[type="checkbox"],
+.ie8 .form__radio input[type="radio"] {
+  display: inline-block;
+}
+
+.ie8 .form__radio input[type="checkbox"] + label,
+.ie8 .form__radio input[type="radio"] + label {
+  background: none;
+  padding-left: 5px;
+}
+
+/* 
+	HTML: Button.html
+*/
+
+.btn {
+  background-color: #8A0917;
+  border: 1px solid #42040b;
+  box-shadow: inset 0 -2px 0 0 #42040b;
+  color: #FFFFFF;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding: 15px 0px;
+  max-width: 500px;
+}
+
+.btn--large {
+  font-size: 25px;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+.btn--inline {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
