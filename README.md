@@ -13,9 +13,11 @@ The aim of generating an component library and style guide for this project was 
 In developing this part of the project we looked at some tools:
 - Pattern primer (on Node) (https://github.com/squashvoice/Pattern-Primer-on-Node)
 - Fabricator (https://fbrctr.github.io/)
-- Living Style Guide Gem (https://livingstyleguide.org/)
 - Sourcejs (https://sourcejs.com/)
 - Pattern lab (http://patternlab.io/)
+
+Other tools:
+- Living Style Guide Gem (https://livingstyleguide.org/)
 - BEM tools (https://en.bem.info/toolbox/)
 - Documented Style Sheets Parser (https://github.com/DSSWG/DSS)
 
@@ -29,9 +31,11 @@ I teste a few tools for generating components and style guides and there are som
 
 ### Pattern primer
 
-This tool is realy simple but not really usefull for this project in combination with Meteorjs. This is a good tool if you want to create a preview of components for a client but it does not fit with the Meteor development flow. Meteorjs devides all the html and css into small components in combination with other styles. Pattern primer only works with one css file and that's not I want.
+This tool is realy simple but not really usefull for this project in combination with Meteorjs. This is a good tool if you want to create a preview of components for a client but it does not fit with the Meteor development flow. Meteorjs devides all the html and css into small components in combination with other styles. Pattern primer only works with one css file and that's not I want. Some extra note: I tested the Nodejs and Grunt versions and they did not work on my computer; correct me if i am wrong.
 
-I tested the Nodejs and Grunt versions and they did not work on my computer.
+### Fabricator
+
+I really like this tool because it has everything you need to build a component library. It's also possible to test the components whitin pages and deploy a package for further use.
 
 ## Installation
 
