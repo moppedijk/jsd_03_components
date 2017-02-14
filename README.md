@@ -12,12 +12,12 @@ The aim of generating an component library and style guide for this project was 
 
 In developing this part of the project we looked at some tools:
 - Pattern primer (on Node) (https://github.com/squashvoice/Pattern-Primer-on-Node)
-- Documented Style Sheets Parser (https://github.com/DSSWG/DSS)
 - Fabricator (https://fbrctr.github.io/)
 - Living Style Guide Gem (https://livingstyleguide.org/)
 - Sourcejs (https://sourcejs.com/)
 - Pattern lab (http://patternlab.io/)
 - BEM tools (https://en.bem.info/toolbox/)
+- Documented Style Sheets Parser (https://github.com/DSSWG/DSS)
 
 ## Code Example
 
