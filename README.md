@@ -8,9 +8,9 @@ This larger project aims at developing web-applications with open data which are
 
 ## Synopsis
 
-The aim of generating an component library and style guide for this project was to create an development environment which is easy to maintain. This style guide needs to be developed for reuse like for example Bootstrap. But what's the difference between an component library and an style guide?
+The aim of generating an component library and style guide for this project was to create an development environment which is easy to maintain. This style guide needs to be developed for reuse like for example Bootstrap. But what's the difference between an component libraries, style guides, and toolkits?
 
-In developing this part of the project we looked at some tools:
+In developing this part of the project I looked at the following tools:
 - Pattern primer (on Node) (https://github.com/squashvoice/Pattern-Primer-on-Node)
 - Fabricator (https://fbrctr.github.io/)
 - Sourcejs (https://sourcejs.com/)
@@ -36,6 +36,18 @@ This tool is realy simple but not really usefull for this project in combination
 ### Fabricator
 
 I really like this tool because it has everything you need to build a component library. It's also possible to test the components whitin pages and deploy a package for further use.
+
+### Sourcejs
+
+This tool is really good developed and works great. On the other hand it does not really my project. Sourcejs gives me the feeling that it's developed to use when working with big team en good documentation is realy needed. Sourcejs has the focus on writing documentation for front-end componenents. It's to complex for this project to only use to create components for a small web-application. Fabricator for example has more focus on just components, and Sourcejs is just more comprehensive.
+
+### Pattern Lab
+
+
+
+---
+
+I am searching for an easy tool for generating and viewing componenents. Write components files like HTML, CSS, and JS, view them, combine them, and deployment them.
 
 ## Installation
 
